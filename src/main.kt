@@ -1,9 +1,10 @@
 import com.qa.Person
+import com.qa.Questions
 
 fun main(args: Array<String>) {
-        println("Hello World!")
+    println("Hello World!")
 
-     val David = Person("David")
+    val David = Person("David")
 
     println("This persons name is ${David.name}")
 
@@ -11,7 +12,9 @@ fun main(args: Array<String>) {
 
     System.out.println("Normal java stuff still works ")
 
-    David.doLamdasWork(::printName);
+    David.doLamdasWork(::printName)
+
+    var q = Questions()
 
 }
 
